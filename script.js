@@ -10,17 +10,14 @@ const iva105 = "10,5%"
 
 let entrada = Number(prompt("Elige el % de IVA a calcular: \n 1 "+iva105+" \n 2 "+iva21+""))
 
-
 if((entrada ==1)){
     alert("Se calculara sobre el 10,5% de IVA")}
     else if((entrada ==2)){
         alert("Se calculara sobre el 21% de IVA")}
         else{
-            alert("Ingrese una opción valida y vuelva a intentarlo")
-            let entrada = Number(prompt("Elige el % de IVA a calcular: \n 1 "+iva105+" \n 2 "+iva21+""))
+            alert("Presiona F5 y vuelve a intentarlo")
+            break;
         }
-
-
 let monto = Number(prompt("Ingrese el monto a calcular"))
 
 //Calculo para determinar el monto
